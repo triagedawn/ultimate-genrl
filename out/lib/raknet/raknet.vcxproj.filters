@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\m16\Desktop\ultimate-genrl\lib\raknet\BitStream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\m16\Desktop\ultimate-genrl\lib\raknet\Packages.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\m16\Desktop\ultimate-genrl\lib\raknet\RakClient.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\m16\Desktop\ultimate-genrl\lib\raknet\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{097F5696-6BE3-3616-93E3-2B06ABDB003C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

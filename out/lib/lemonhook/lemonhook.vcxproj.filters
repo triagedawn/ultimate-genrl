@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\src\details\details.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\src\details\detour_base.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\src\mem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\include\lemon\details\details.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\include\lemon\details\detour_base.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\include\lemon\details\detour_callback.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\include\lemon\details\hook_base.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\include\lemon\details\hook_callback.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\include\lemon\detour.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\include\lemon\hook.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\include\lemon\mem.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{A9A67AF2-EB4B-3362-9C90-804CEF7C8711}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{097F5696-6BE3-3616-93E3-2B06ABDB003C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

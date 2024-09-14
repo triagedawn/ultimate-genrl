@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\m16\Desktop\ultimate-genrl\lib\bass\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\m16\Desktop\ultimate-genrl\lib\bass\include\bass.h">
+      <Filter>Header Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{A9A67AF2-EB4B-3362-9C90-804CEF7C8711}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

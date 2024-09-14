@@ -1,0 +1,6 @@
+[submodule "lib/xbyak"]
+	path = lib/xbyak
+	url = https://github.com/herumi/xbyak
+[submodule "lib/zydis"]
+	path = lib/zydis
+	url = https://github.com/zyantific/zydis

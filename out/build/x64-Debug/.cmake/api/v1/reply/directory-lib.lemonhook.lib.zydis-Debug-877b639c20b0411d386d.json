@@ -1,0 +1,121 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"lib/lemonhook/lib/zydis/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 188,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 194,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 199,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 202,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 205,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/zydis",
+			"paths" : 
+			[
+				"out/build/x64-Debug/lib/lemonhook/lib/zydis/zydis-config.cmake",
+				"out/build/x64-Debug/lib/lemonhook/lib/zydis/zydis-config-version.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/lemonhook/lib/zydis/Zydis.lib"
+			],
+			"targetId" : "Zydis::@2536f060d8e731dbc1a7",
+			"targetIndex" : 1,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/zydis",
+			"exportName" : "zydis-targets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "Zydis::@2536f060d8e731dbc1a7",
+					"index" : 1
+				}
+			],
+			"paths" : 
+			[
+				"lib/lemonhook/lib/zydis/CMakeFiles/Export/c520ad4c175752a05a118ad881557759/zydis-targets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "include",
+			"paths" : 
+			[
+				"out/build/x64-Debug/lib/lemonhook/lib/zydis/ZydisExportConfig.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Unspecified",
+			"destination" : "include",
+			"paths" : 
+			[
+				{
+					"from" : "lib/lemonhook/lib/zydis/include",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "lib/lemonhook/lib/zydis",
+		"source" : "lib/lemonhook/lib/zydis"
+	}
+}

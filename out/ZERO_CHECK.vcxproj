@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{921BE347-1125-35F0-9CE9-0CD07A7D088A}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
+    <Platform>Win32</Platform>
+    <ProjectName>ZERO_CHECK</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>ClangCL</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>ClangCL</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>ClangCL</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>ClangCL</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\m16\Desktop\ultimate-genrl\out\CMakeFiles\25432dc34210e6bf7954035b34a6ecb9\generate.stamp.rule">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/m16/Desktop/ultimate-genrl -BC:/Users/m16/Desktop/ultimate-genrl/out --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/m16/Desktop/ultimate-genrl/out/ultimate-genrl.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Program Files\CMake\share\cmake-3.30\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\Clang-C.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\Clang-CXX.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\Clang.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\GenerateExportHeader.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Internal\CheckFlagCommonConfig.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-Clang-C.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-Clang-CXX.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-Clang.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\WriteBasicConfigVersionFile.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\exportheader.cmake.in;C:\Users\m16\Desktop\ultimate-genrl\CMakeLists.txt;C:\Users\m16\Desktop\ultimate-genrl\lib\CMakeLists.txt;C:\Users\m16\Desktop\ultimate-genrl\lib\bass\CMakeLists.txt;C:\Users\m16\Desktop\ultimate-genrl\lib\json\CMakeLists.txt;C:\Users\m16\Desktop\ultimate-genrl\lib\json\cmake\config.cmake.in;C:\Users\m16\Desktop\ultimate-genrl\lib\json\cmake\nlohmann_jsonConfigVersion.cmake.in;C:\Users\m16\Desktop\ultimate-genrl\lib\json\cmake\pkg-config.pc.in;C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\CMakeLists.txt;C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\lib\xbyak\CMakeLists.txt;C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\lib\xbyak\cmake\config.cmake.in;C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\lib\zydis\CMakeLists.txt;C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\lib\zydis\cmake\zydis-config.cmake.in;C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\lib\zydis\dependencies\zycore\CMakeLists.txt;C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\lib\zydis\dependencies\zycore\cmake\zycore-config.cmake.in;C:\Users\m16\Desktop\ultimate-genrl\lib\raknet\CMakeLists.txt;C:\Users\m16\Desktop\ultimate-genrl\out\CMakeFiles\3.30.0-rc4\CMakeCCompiler.cmake;C:\Users\m16\Desktop\ultimate-genrl\out\CMakeFiles\3.30.0-rc4\CMakeCXXCompiler.cmake;C:\Users\m16\Desktop\ultimate-genrl\out\CMakeFiles\3.30.0-rc4\CMakeRCCompiler.cmake;C:\Users\m16\Desktop\ultimate-genrl\out\CMakeFiles\3.30.0-rc4\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\m16\Desktop\ultimate-genrl\out\CMakeFiles\generate.stamp;C:\Users\m16\Desktop\ultimate-genrl\out\lib\CMakeFiles\generate.stamp;C:\Users\m16\Desktop\ultimate-genrl\out\lib\bass\CMakeFiles\generate.stamp;C:\Users\m16\Desktop\ultimate-genrl\out\lib\json\CMakeFiles\generate.stamp;C:\Users\m16\Desktop\ultimate-genrl\out\lib\lemonhook\CMakeFiles\generate.stamp;C:\Users\m16\Desktop\ultimate-genrl\out\lib\lemonhook\lib\xbyak\CMakeFiles\generate.stamp;C:\Users\m16\Desktop\ultimate-genrl\out\lib\lemonhook\lib\zydis\CMakeFiles\generate.stamp;C:\Users\m16\Desktop\ultimate-genrl\out\lib\lemonhook\lib\zydis\zycore\CMakeFiles\generate.stamp;C:\Users\m16\Desktop\ultimate-genrl\out\lib\raknet\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/m16/Desktop/ultimate-genrl -BC:/Users/m16/Desktop/ultimate-genrl/out --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/m16/Desktop/ultimate-genrl/out/ultimate-genrl.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Program Files\CMake\share\cmake-3.30\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\Clang-C.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\Clang-CXX.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\Clang.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\GenerateExportHeader.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Internal\CheckFlagCommonConfig.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-Clang-C.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-Clang-CXX.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-Clang.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\WriteBasicConfigVersionFile.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\exportheader.cmake.in;C:\Users\m16\Desktop\ultimate-genrl\CMakeLists.txt;C:\Users\m16\Desktop\ultimate-genrl\lib\CMakeLists.txt;C:\Users\m16\Desktop\ultimate-genrl\lib\bass\CMakeLists.txt;C:\Users\m16\Desktop\ultimate-genrl\lib\json\CMakeLists.txt;C:\Users\m16\Desktop\ultimate-genrl\lib\json\cmake\config.cmake.in;C:\Users\m16\Desktop\ultimate-genrl\lib\json\cmake\nlohmann_jsonConfigVersion.cmake.in;C:\Users\m16\Desktop\ultimate-genrl\lib\json\cmake\pkg-config.pc.in;C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\CMakeLists.txt;C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\lib\xbyak\CMakeLists.txt;C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\lib\xbyak\cmake\config.cmake.in;C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\lib\zydis\CMakeLists.txt;C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\lib\zydis\cmake\zydis-config.cmake.in;C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\lib\zydis\dependencies\zycore\CMakeLists.txt;C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\lib\zydis\dependencies\zycore\cmake\zycore-config.cmake.in;C:\Users\m16\Desktop\ultimate-genrl\lib\raknet\CMakeLists.txt;C:\Users\m16\Desktop\ultimate-genrl\out\CMakeFiles\3.30.0-rc4\CMakeCCompiler.cmake;C:\Users\m16\Desktop\ultimate-genrl\out\CMakeFiles\3.30.0-rc4\CMakeCXXCompiler.cmake;C:\Users\m16\Desktop\ultimate-genrl\out\CMakeFiles\3.30.0-rc4\CMakeRCCompiler.cmake;C:\Users\m16\Desktop\ultimate-genrl\out\CMakeFiles\3.30.0-rc4\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\m16\Desktop\ultimate-genrl\out\CMakeFiles\generate.stamp;C:\Users\m16\Desktop\ultimate-genrl\out\lib\CMakeFiles\generate.stamp;C:\Users\m16\Desktop\ultimate-genrl\out\lib\bass\CMakeFiles\generate.stamp;C:\Users\m16\Desktop\ultimate-genrl\out\lib\json\CMakeFiles\generate.stamp;C:\Users\m16\Desktop\ultimate-genrl\out\lib\lemonhook\CMakeFiles\generate.stamp;C:\Users\m16\Desktop\ultimate-genrl\out\lib\lemonhook\lib\xbyak\CMakeFiles\generate.stamp;C:\Users\m16\Desktop\ultimate-genrl\out\lib\lemonhook\lib\zydis\CMakeFiles\generate.stamp;C:\Users\m16\Desktop\ultimate-genrl\out\lib\lemonhook\lib\zydis\zycore\CMakeFiles\generate.stamp;C:\Users\m16\Desktop\ultimate-genrl\out\lib\raknet\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/m16/Desktop/ultimate-genrl -BC:/Users/m16/Desktop/ultimate-genrl/out --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/m16/Desktop/ultimate-genrl/out/ultimate-genrl.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Program Files\CMake\share\cmake-3.30\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\Clang-C.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\Clang-CXX.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\Clang.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\GenerateExportHeader.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Internal\CheckFlagCommonConfig.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-Clang-C.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-Clang-CXX.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-Clang.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\WriteBasicConfigVersionFile.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\exportheader.cmake.in;C:\Users\m16\Desktop\ultimate-genrl\CMakeLists.txt;C:\Users\m16\Desktop\ultimate-genrl\lib\CMakeLists.txt;C:\Users\m16\Desktop\ultimate-genrl\lib\bass\CMakeLists.txt;C:\Users\m16\Desktop\ultimate-genrl\lib\json\CMakeLists.txt;C:\Users\m16\Desktop\ultimate-genrl\lib\json\cmake\config.cmake.in;C:\Users\m16\Desktop\ultimate-genrl\lib\json\cmake\nlohmann_jsonConfigVersion.cmake.in;C:\Users\m16\Desktop\ultimate-genrl\lib\json\cmake\pkg-config.pc.in;C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\CMakeLists.txt;C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\lib\xbyak\CMakeLists.txt;C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\lib\xbyak\cmake\config.cmake.in;C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\lib\zydis\CMakeLists.txt;C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\lib\zydis\cmake\zydis-config.cmake.in;C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\lib\zydis\dependencies\zycore\CMakeLists.txt;C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\lib\zydis\dependencies\zycore\cmake\zycore-config.cmake.in;C:\Users\m16\Desktop\ultimate-genrl\lib\raknet\CMakeLists.txt;C:\Users\m16\Desktop\ultimate-genrl\out\CMakeFiles\3.30.0-rc4\CMakeCCompiler.cmake;C:\Users\m16\Desktop\ultimate-genrl\out\CMakeFiles\3.30.0-rc4\CMakeCXXCompiler.cmake;C:\Users\m16\Desktop\ultimate-genrl\out\CMakeFiles\3.30.0-rc4\CMakeRCCompiler.cmake;C:\Users\m16\Desktop\ultimate-genrl\out\CMakeFiles\3.30.0-rc4\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\m16\Desktop\ultimate-genrl\out\CMakeFiles\generate.stamp;C:\Users\m16\Desktop\ultimate-genrl\out\lib\CMakeFiles\generate.stamp;C:\Users\m16\Desktop\ultimate-genrl\out\lib\bass\CMakeFiles\generate.stamp;C:\Users\m16\Desktop\ultimate-genrl\out\lib\json\CMakeFiles\generate.stamp;C:\Users\m16\Desktop\ultimate-genrl\out\lib\lemonhook\CMakeFiles\generate.stamp;C:\Users\m16\Desktop\ultimate-genrl\out\lib\lemonhook\lib\xbyak\CMakeFiles\generate.stamp;C:\Users\m16\Desktop\ultimate-genrl\out\lib\lemonhook\lib\zydis\CMakeFiles\generate.stamp;C:\Users\m16\Desktop\ultimate-genrl\out\lib\lemonhook\lib\zydis\zycore\CMakeFiles\generate.stamp;C:\Users\m16\Desktop\ultimate-genrl\out\lib\raknet\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/m16/Desktop/ultimate-genrl -BC:/Users/m16/Desktop/ultimate-genrl/out --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/m16/Desktop/ultimate-genrl/out/ultimate-genrl.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Program Files\CMake\share\cmake-3.30\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\Clang-C.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\Clang-CXX.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\Clang.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\GenerateExportHeader.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Internal\CheckFlagCommonConfig.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-Clang-C.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-Clang-CXX.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-Clang.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\WriteBasicConfigVersionFile.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\exportheader.cmake.in;C:\Users\m16\Desktop\ultimate-genrl\CMakeLists.txt;C:\Users\m16\Desktop\ultimate-genrl\lib\CMakeLists.txt;C:\Users\m16\Desktop\ultimate-genrl\lib\bass\CMakeLists.txt;C:\Users\m16\Desktop\ultimate-genrl\lib\json\CMakeLists.txt;C:\Users\m16\Desktop\ultimate-genrl\lib\json\cmake\config.cmake.in;C:\Users\m16\Desktop\ultimate-genrl\lib\json\cmake\nlohmann_jsonConfigVersion.cmake.in;C:\Users\m16\Desktop\ultimate-genrl\lib\json\cmake\pkg-config.pc.in;C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\CMakeLists.txt;C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\lib\xbyak\CMakeLists.txt;C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\lib\xbyak\cmake\config.cmake.in;C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\lib\zydis\CMakeLists.txt;C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\lib\zydis\cmake\zydis-config.cmake.in;C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\lib\zydis\dependencies\zycore\CMakeLists.txt;C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\lib\zydis\dependencies\zycore\cmake\zycore-config.cmake.in;C:\Users\m16\Desktop\ultimate-genrl\lib\raknet\CMakeLists.txt;C:\Users\m16\Desktop\ultimate-genrl\out\CMakeFiles\3.30.0-rc4\CMakeCCompiler.cmake;C:\Users\m16\Desktop\ultimate-genrl\out\CMakeFiles\3.30.0-rc4\CMakeCXXCompiler.cmake;C:\Users\m16\Desktop\ultimate-genrl\out\CMakeFiles\3.30.0-rc4\CMakeRCCompiler.cmake;C:\Users\m16\Desktop\ultimate-genrl\out\CMakeFiles\3.30.0-rc4\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\m16\Desktop\ultimate-genrl\out\CMakeFiles\generate.stamp;C:\Users\m16\Desktop\ultimate-genrl\out\lib\CMakeFiles\generate.stamp;C:\Users\m16\Desktop\ultimate-genrl\out\lib\bass\CMakeFiles\generate.stamp;C:\Users\m16\Desktop\ultimate-genrl\out\lib\json\CMakeFiles\generate.stamp;C:\Users\m16\Desktop\ultimate-genrl\out\lib\lemonhook\CMakeFiles\generate.stamp;C:\Users\m16\Desktop\ultimate-genrl\out\lib\lemonhook\lib\xbyak\CMakeFiles\generate.stamp;C:\Users\m16\Desktop\ultimate-genrl\out\lib\lemonhook\lib\zydis\CMakeFiles\generate.stamp;C:\Users\m16\Desktop\ultimate-genrl\out\lib\lemonhook\lib\zydis\zycore\CMakeFiles\generate.stamp;C:\Users\m16\Desktop\ultimate-genrl\out\lib\raknet\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

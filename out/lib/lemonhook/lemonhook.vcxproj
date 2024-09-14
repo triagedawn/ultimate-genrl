@@ -1,0 +1,314 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{95E64C68-A12A-37C8-894E-56B87EF1538D}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
+    <Platform>Win32</Platform>
+    <ProjectName>lemonhook</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>ClangCL</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>ClangCL</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>ClangCL</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>ClangCL</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\m16\Desktop\ultimate-genrl\out\lib\lemonhook\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">lemonhook.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">lemonhook</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\m16\Desktop\ultimate-genrl\out\lib\lemonhook\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">lemonhook.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">lemonhook</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\m16\Desktop\ultimate-genrl\out\lib\lemonhook\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">lemonhook.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">lemonhook</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\m16\Desktop\ultimate-genrl\out\lib\lemonhook\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">lemonhook.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">lemonhook</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\include\lemon;C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\include;C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\lib\xbyak;C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\lib\zydis\include;C:\Users\m16\Desktop\ultimate-genrl\out\lib\lemonhook\lib\zydis;C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\lib\zydis\dependencies\zycore\include;C:\Users\m16\Desktop\ultimate-genrl\out\lib\lemonhook\lib\zydis\zycore;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\include\lemon;C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\include;C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\lib\xbyak;C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\lib\zydis\include;C:\Users\m16\Desktop\ultimate-genrl\out\lib\lemonhook\lib\zydis;C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\lib\zydis\dependencies\zycore\include;C:\Users\m16\Desktop\ultimate-genrl\out\lib\lemonhook\lib\zydis\zycore;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\include\lemon;C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\include;C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\lib\xbyak;C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\lib\zydis\include;C:\Users\m16\Desktop\ultimate-genrl\out\lib\lemonhook\lib\zydis;C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\lib\zydis\dependencies\zycore\include;C:\Users\m16\Desktop\ultimate-genrl\out\lib\lemonhook\lib\zydis\zycore;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\include\lemon;C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\include;C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\lib\xbyak;C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\lib\zydis\include;C:\Users\m16\Desktop\ultimate-genrl\out\lib\lemonhook\lib\zydis;C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\lib\zydis\dependencies\zycore\include;C:\Users\m16\Desktop\ultimate-genrl\out\lib\lemonhook\lib\zydis\zycore;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\include\lemon;C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\include;C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\lib\xbyak;C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\lib\zydis\include;C:\Users\m16\Desktop\ultimate-genrl\out\lib\lemonhook\lib\zydis;C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\lib\zydis\dependencies\zycore\include;C:\Users\m16\Desktop\ultimate-genrl\out\lib\lemonhook\lib\zydis\zycore;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\include\lemon;C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\include;C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\lib\xbyak;C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\lib\zydis\include;C:\Users\m16\Desktop\ultimate-genrl\out\lib\lemonhook\lib\zydis;C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\lib\zydis\dependencies\zycore\include;C:\Users\m16\Desktop\ultimate-genrl\out\lib\lemonhook\lib\zydis\zycore;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\include\lemon;C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\include;C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\lib\xbyak;C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\lib\zydis\include;C:\Users\m16\Desktop\ultimate-genrl\out\lib\lemonhook\lib\zydis;C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\lib\zydis\dependencies\zycore\include;C:\Users\m16\Desktop\ultimate-genrl\out\lib\lemonhook\lib\zydis\zycore;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\include\lemon;C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\include;C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\lib\xbyak;C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\lib\zydis\include;C:\Users\m16\Desktop\ultimate-genrl\out\lib\lemonhook\lib\zydis;C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\lib\zydis\dependencies\zycore\include;C:\Users\m16\Desktop\ultimate-genrl\out\lib\lemonhook\lib\zydis\zycore;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\include\lemon;C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\include;C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\lib\xbyak;C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\lib\zydis\include;C:\Users\m16\Desktop\ultimate-genrl\out\lib\lemonhook\lib\zydis;C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\lib\zydis\dependencies\zycore\include;C:\Users\m16\Desktop\ultimate-genrl\out\lib\lemonhook\lib\zydis\zycore;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\include\lemon;C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\include;C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\lib\xbyak;C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\lib\zydis\include;C:\Users\m16\Desktop\ultimate-genrl\out\lib\lemonhook\lib\zydis;C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\lib\zydis\dependencies\zycore\include;C:\Users\m16\Desktop\ultimate-genrl\out\lib\lemonhook\lib\zydis\zycore;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\include\lemon;C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\include;C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\lib\xbyak;C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\lib\zydis\include;C:\Users\m16\Desktop\ultimate-genrl\out\lib\lemonhook\lib\zydis;C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\lib\zydis\dependencies\zycore\include;C:\Users\m16\Desktop\ultimate-genrl\out\lib\lemonhook\lib\zydis\zycore;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\include\lemon;C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\include;C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\lib\xbyak;C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\lib\zydis\include;C:\Users\m16\Desktop\ultimate-genrl\out\lib\lemonhook\lib\zydis;C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\lib\zydis\dependencies\zycore\include;C:\Users\m16\Desktop\ultimate-genrl\out\lib\lemonhook\lib\zydis\zycore;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/m16/Desktop/ultimate-genrl/lib/lemonhook/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/m16/Desktop/ultimate-genrl -BC:/Users/m16/Desktop/ultimate-genrl/out --check-stamp-file C:/Users/m16/Desktop/ultimate-genrl/out/lib/lemonhook/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\m16\Desktop\ultimate-genrl\out\lib\lemonhook\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/m16/Desktop/ultimate-genrl/lib/lemonhook/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/m16/Desktop/ultimate-genrl -BC:/Users/m16/Desktop/ultimate-genrl/out --check-stamp-file C:/Users/m16/Desktop/ultimate-genrl/out/lib/lemonhook/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\m16\Desktop\ultimate-genrl\out\lib\lemonhook\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Users/m16/Desktop/ultimate-genrl/lib/lemonhook/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/m16/Desktop/ultimate-genrl -BC:/Users/m16/Desktop/ultimate-genrl/out --check-stamp-file C:/Users/m16/Desktop/ultimate-genrl/out/lib/lemonhook/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\m16\Desktop\ultimate-genrl\out\lib\lemonhook\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Users/m16/Desktop/ultimate-genrl/lib/lemonhook/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/m16/Desktop/ultimate-genrl -BC:/Users/m16/Desktop/ultimate-genrl/out --check-stamp-file C:/Users/m16/Desktop/ultimate-genrl/out/lib/lemonhook/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\m16\Desktop\ultimate-genrl\out\lib\lemonhook\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\include\lemon\details\details.hpp" />
+    <ClInclude Include="C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\include\lemon\details\detour_base.hpp" />
+    <ClInclude Include="C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\include\lemon\details\detour_callback.hpp" />
+    <ClInclude Include="C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\include\lemon\details\hook_base.hpp" />
+    <ClInclude Include="C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\include\lemon\details\hook_callback.hpp" />
+    <ClInclude Include="C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\include\lemon\detour.hpp" />
+    <ClInclude Include="C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\include\lemon\hook.hpp" />
+    <ClInclude Include="C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\include\lemon\mem.hpp" />
+    <ClCompile Include="C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\src\details\details.cpp" />
+    <ClCompile Include="C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\src\details\detour_base.cpp" />
+    <ClCompile Include="C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\src\mem.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\m16\Desktop\ultimate-genrl\out\ZERO_CHECK.vcxproj">
+      <Project>{921BE347-1125-35F0-9CE9-0CD07A7D088A}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\m16\Desktop\ultimate-genrl\out\lib\lemonhook\lib\zydis\zycore\Zycore.vcxproj">
+      <Project>{361C4CAE-536A-3911-84E9-E6638A78FC94}</Project>
+      <Name>Zycore</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\m16\Desktop\ultimate-genrl\out\lib\lemonhook\lib\zydis\Zydis.vcxproj">
+      <Project>{8B74463D-00BA-310F-A12F-2F0BF250A7A7}</Project>
+      <Name>Zydis</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

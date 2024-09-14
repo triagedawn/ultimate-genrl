@@ -1,0 +1,87 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"lib/lemonhook/lib/xbyak/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 35,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 43,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 52,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/xbyak",
+			"paths" : 
+			[
+				"out/build/x64-Debug/lib/lemonhook/lib/xbyak/xbyak-config.cmake",
+				"out/build/x64-Debug/lib/lemonhook/lib/xbyak/xbyak-config-version.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/xbyak",
+			"exportName" : "xbyak-targets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "xbyak::@07777dd007968d92eb5d",
+					"index" : 0
+				}
+			],
+			"paths" : 
+			[
+				"lib/lemonhook/lib/xbyak/CMakeFiles/Export/4437986e48c3c33173e9ce31677f9aff/xbyak-targets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "include/xbyak",
+			"paths" : 
+			[
+				"lib/lemonhook/lib/xbyak/xbyak/xbyak.h",
+				"lib/lemonhook/lib/xbyak/xbyak/xbyak_bin2hex.h",
+				"lib/lemonhook/lib/xbyak/xbyak/xbyak_mnemonic.h",
+				"lib/lemonhook/lib/xbyak/xbyak/xbyak_util.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "lib/lemonhook/lib/xbyak",
+		"source" : "lib/lemonhook/lib/xbyak"
+	}
+}

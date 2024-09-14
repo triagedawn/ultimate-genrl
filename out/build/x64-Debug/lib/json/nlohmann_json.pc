@@ -1,0 +1,4 @@
+Name: nlohmann_json
+Description: JSON for Modern C++
+Version: 3.11.1
+Cflags: -IC:/Users/m16/Desktop/ultimate-genrl/out/install/x64-Debug/include

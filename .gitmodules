@@ -1,0 +1,12 @@
+[submodule "lib/lemonhook"]
+	path = lib/lemonhook
+	url = git@gitlab.com:sc6ut/lemonhook.git
+[submodule "lib/raknet"]
+	path = lib/raknet
+	url = git@gitlab.com:prime-hack/samp/plugins/templates/raknet.git
+[submodule "lib/json"]
+	path = lib/json
+	url = git@github.com:nlohmann/json.git
+[submodule "lib/imgui"]
+	path = lib/imgui
+	url = git@github.com:ocornut/imgui.git

@@ -1,0 +1,121 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"lib/lemonhook/lib/zydis/dependencies/zycore/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 228,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 234,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 239,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 242,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 245,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/zycore",
+			"paths" : 
+			[
+				"out/build/x64-Debug/lib/lemonhook/lib/zydis/zycore/zycore-config.cmake",
+				"out/build/x64-Debug/lib/lemonhook/lib/zydis/zycore/zycore-config-version.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/lemonhook/lib/zydis/zycore/Zycore.lib"
+			],
+			"targetId" : "Zycore::@e04d5abf91f5c546bcaa",
+			"targetIndex" : 0,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/zycore",
+			"exportName" : "zycore-targets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "Zycore::@e04d5abf91f5c546bcaa",
+					"index" : 0
+				}
+			],
+			"paths" : 
+			[
+				"lib/lemonhook/lib/zydis/zycore/CMakeFiles/Export/be8fb0d055ecad19586b2bae767d49d8/zycore-targets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "include",
+			"paths" : 
+			[
+				"out/build/x64-Debug/lib/lemonhook/lib/zydis/zycore/ZycoreExportConfig.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Unspecified",
+			"destination" : "include",
+			"paths" : 
+			[
+				{
+					"from" : "lib/lemonhook/lib/zydis/dependencies/zycore/include",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "lib/lemonhook/lib/zydis/zycore",
+		"source" : "lib/lemonhook/lib/zydis/dependencies/zycore"
+	}
+}

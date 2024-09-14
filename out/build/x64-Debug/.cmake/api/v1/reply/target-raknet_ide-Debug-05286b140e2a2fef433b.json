@@ -1,0 +1,52 @@
+{
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target"
+		],
+		"files" : 
+		[
+			"lib/raknet/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 29,
+				"parent" : 0
+			}
+		]
+	},
+	"id" : "raknet_ide::@4733819a6eb2f50859aa",
+	"name" : "raknet_ide",
+	"paths" : 
+	{
+		"build" : "lib/raknet",
+		"source" : "lib/raknet"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"path" : "lib/raknet/Network.hpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "UTILITY"
+}

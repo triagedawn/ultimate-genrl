@@ -1,0 +1,27 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.30/Modules/BasicConfigVersion-SameMajorVersion.cmake.in
+C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/CMakePackageConfigHelpers.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/CheckCCompilerFlag.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/CheckCSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/CheckCXXCompilerFlag.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/CheckCXXSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/CheckCompilerFlag.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/CheckSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/Compiler/Clang-C.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/Compiler/Clang.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/GNUInstallDirs.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/GenerateExportHeader.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckFlagCommonConfig.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/Platform/Windows-Clang-C.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/Platform/Windows-Clang.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/WriteBasicConfigVersionFile.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/exportheader.cmake.in
+C:/Users/m16/Desktop/ultimate-genrl/lib/lemonhook/lib/zydis/CMakeLists.txt
+C:/Users/m16/Desktop/ultimate-genrl/lib/lemonhook/lib/zydis/cmake/zydis-config.cmake.in
+C:/Users/m16/Desktop/ultimate-genrl/out/CMakeFiles/3.30.0-rc4/CMakeCCompiler.cmake

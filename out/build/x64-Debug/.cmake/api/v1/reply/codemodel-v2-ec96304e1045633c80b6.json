@@ -1,0 +1,343 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-b9901bd67a796439eab0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"build" : "lib",
+					"childIndexes" : 
+					[
+						2,
+						3,
+						4,
+						8
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-lib-Debug-e9069484d90298468a11.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "lib",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "lib/bass",
+					"jsonFile" : "directory-lib.bass-Debug-437fdd2595d5342d5a84.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "lib/bass",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "lib/json",
+					"jsonFile" : "directory-lib.json-Debug-0bb764089398073f6e23.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "lib/json"
+				},
+				{
+					"build" : "lib/lemonhook",
+					"childIndexes" : 
+					[
+						5,
+						6
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-lib.lemonhook-Debug-2f1b9e78c506eb798d33.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 3,
+					"source" : "lib/lemonhook",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "lib/lemonhook/lib/xbyak",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-lib.lemonhook.lib.xbyak-Debug-1bec9c0beddfb5201281.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.6"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 4,
+					"source" : "lib/lemonhook/lib/xbyak"
+				},
+				{
+					"build" : "lib/lemonhook/lib/zydis",
+					"childIndexes" : 
+					[
+						7
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-lib.lemonhook.lib.zydis-Debug-877b639c20b0411d386d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 5,
+					"source" : "lib/lemonhook/lib/zydis",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "lib/lemonhook/lib/zydis/zycore",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-lib.lemonhook.lib.zydis.zycore-Debug-ad9d30e8794566303589.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 6,
+					"projectIndex" : 6,
+					"source" : "lib/lemonhook/lib/zydis/dependencies/zycore",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "lib/raknet",
+					"jsonFile" : "directory-lib.raknet-Debug-b1e95a70626b36f661d2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 7,
+					"source" : "lib/raknet",
+					"targetIndexes" : 
+					[
+						5,
+						6
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						7
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "ultimate-genrl",
+					"targetIndexes" : 
+					[
+						3,
+						7
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "bass",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "nlohmann_json",
+					"parentIndex" : 0
+				},
+				{
+					"childIndexes" : 
+					[
+						4,
+						5
+					],
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "lemonhook",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "xbyak",
+					"parentIndex" : 3
+				},
+				{
+					"childIndexes" : 
+					[
+						6
+					],
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "Zydis",
+					"parentIndex" : 3,
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						7
+					],
+					"name" : "Zycore",
+					"parentIndex" : 5,
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						8
+					],
+					"name" : "raknet",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 7,
+					"id" : "Zycore::@e04d5abf91f5c546bcaa",
+					"jsonFile" : "target-Zycore-Debug-70189bc3284bb4daf7a6.json",
+					"name" : "Zycore",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "Zydis::@2536f060d8e731dbc1a7",
+					"jsonFile" : "target-Zydis-Debug-7b2e0808e096f2065750.json",
+					"name" : "Zydis",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "bass::@4a81a4b6f7260341c879",
+					"jsonFile" : "target-bass-Debug-3d9d9889b33b15324857.json",
+					"name" : "bass",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "imgui::@306ed2d68c6501e8728f",
+					"jsonFile" : "target-imgui-Debug-53ab4737dea74aa75e99.json",
+					"name" : "imgui",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "lemonhook::@0646727a585340fc0932",
+					"jsonFile" : "target-lemonhook-Debug-c5d1f57bdf9865270541.json",
+					"name" : "lemonhook",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "raknet::@4733819a6eb2f50859aa",
+					"jsonFile" : "target-raknet-Debug-70ae63e9f919f0b53a3d.json",
+					"name" : "raknet",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "raknet_ide::@4733819a6eb2f50859aa",
+					"jsonFile" : "target-raknet_ide-Debug-05286b140e2a2fef433b.json",
+					"name" : "raknet_ide",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ultimate-genrl::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ultimate-genrl-Debug-6aaf0b77e5cfe24cbb67.json",
+					"name" : "ultimate-genrl",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/m16/Desktop/ultimate-genrl/out/build/x64-Debug",
+		"source" : "C:/Users/m16/Desktop/ultimate-genrl"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

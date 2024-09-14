@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\lib\zydis\src\MetaInfo.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\lib\zydis\src\Mnemonic.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\lib\zydis\src\Register.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\lib\zydis\src\SharedData.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\lib\zydis\src\String.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\lib\zydis\src\Utils.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\lib\zydis\src\Zydis.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\lib\zydis\src\Decoder.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\lib\zydis\src\DecoderData.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\lib\zydis\src\Formatter.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\lib\zydis\src\FormatterBuffer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\lib\zydis\src\FormatterATT.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\lib\zydis\src\FormatterBase.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\lib\zydis\src\FormatterIntel.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\lib\zydis\include\Zydis\MetaInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\lib\zydis\include\Zydis\Mnemonic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\lib\zydis\include\Zydis\Register.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\lib\zydis\include\Zydis\SharedTypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\lib\zydis\include\Zydis\ShortString.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\lib\zydis\include\Zydis\Status.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\lib\zydis\include\Zydis\Utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\lib\zydis\include\Zydis\Zydis.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\lib\zydis\include\Zydis\Internal\SharedData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\lib\zydis\include\Zydis\Internal\String.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\lib\zydis\include\Zydis\Decoder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\lib\zydis\include\Zydis\DecoderTypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\lib\zydis\include\Zydis\Internal\DecoderData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\lib\zydis\include\Zydis\Formatter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\lib\zydis\include\Zydis\FormatterBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\lib\zydis\include\Zydis\Internal\FormatterATT.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\lib\zydis\include\Zydis\Internal\FormatterBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\lib\zydis\include\Zydis\Internal\FormatterIntel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\lib\zydis\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{A9A67AF2-EB4B-3362-9C90-804CEF7C8711}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{097F5696-6BE3-3616-93E3-2B06ABDB003C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

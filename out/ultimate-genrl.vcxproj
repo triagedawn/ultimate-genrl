@@ -1,0 +1,390 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{AD88429E-4C49-3603-A397-09513E3A9153}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <Platform>Win32</Platform>
+    <ProjectName>ultimate-genrl</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>ClangCL</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>ClangCL</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>ClangCL</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>ClangCL</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\m16\Desktop\ultimate-genrl\out\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">ultimate-genrl.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">ultimate-genrl</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.asi</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\..\..\..\..\Games\GTA San Andreas Skull</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">ultimate-genrl.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">ultimate-genrl</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.asi</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\m16\Desktop\ultimate-genrl\out\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">ultimate-genrl.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">ultimate-genrl</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.asi</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\m16\Desktop\ultimate-genrl\out\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">ultimate-genrl.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">ultimate-genrl</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.asi</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IncludePath>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x86\;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\m16\Desktop\ultimate-genrl\lib\bass\include;C:\Users\m16\Desktop\ultimate-genrl\lib\imgui;C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\include;C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\lib\xbyak;C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\lib\zydis\include;C:\Users\m16\Desktop\ultimate-genrl\out\lib\lemonhook\lib\zydis;C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\lib\zydis\dependencies\zycore\include;C:\Users\m16\Desktop\ultimate-genrl\out\lib\lemonhook\lib\zydis\zycore;C:\Users\m16\Desktop\ultimate-genrl\lib\json\include;C:\Users\m16\Desktop\ultimate-genrl\lib\raknet;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MinimalRebuild>
+      </MinimalRebuild>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode>
+      </SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_MBCS;CMAKE_INTDIR="Debug";ultimate_genrl_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;_MBCS;CMAKE_INTDIR=\"Debug\";ultimate_genrl_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\m16\Desktop\ultimate-genrl\lib\bass\include;C:\Users\m16\Desktop\ultimate-genrl\lib\imgui;C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\include;C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\lib\xbyak;C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\lib\zydis\include;C:\Users\m16\Desktop\ultimate-genrl\out\lib\lemonhook\lib\zydis;C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\lib\zydis\dependencies\zycore\include;C:\Users\m16\Desktop\ultimate-genrl\out\lib\lemonhook\lib\zydis\zycore;C:\Users\m16\Desktop\ultimate-genrl\lib\json\include;C:\Users\m16\Desktop\ultimate-genrl\lib\raknet;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\m16\Desktop\ultimate-genrl\lib\bass\include;C:\Users\m16\Desktop\ultimate-genrl\lib\imgui;C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\include;C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\lib\xbyak;C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\lib\zydis\include;C:\Users\m16\Desktop\ultimate-genrl\out\lib\lemonhook\lib\zydis;C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\lib\zydis\dependencies\zycore\include;C:\Users\m16\Desktop\ultimate-genrl\out\lib\lemonhook\lib\zydis\zycore;C:\Users\m16\Desktop\ultimate-genrl\lib\json\include;C:\Users\m16\Desktop\ultimate-genrl\lib\raknet;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>lib\Debug\imgui.lib;lib\lemonhook\Debug\lemonhook.lib;lib\raknet\Debug\raknet.lib;C:\Users\m16\Desktop\ultimate-genrl\lib\bass\lib\bass.lib;d3d9.lib;dwmapi.lib;lib\lemonhook\lib\zydis\Debug\Zydis.lib;lib\lemonhook\lib\zydis\zycore\Debug\Zycore.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/m16/Desktop/ultimate-genrl/out/Debug/ultimate-genrl.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/m16/Desktop/ultimate-genrl/out/Debug/ultimate-genrl.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\m16\Desktop\ultimate-genrl\lib\bass\include;C:\Users\m16\Desktop\ultimate-genrl\lib\imgui;C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\include;C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\lib\xbyak;C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\lib\zydis\include;C:\Users\m16\Desktop\ultimate-genrl\out\lib\lemonhook\lib\zydis;C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\lib\zydis\dependencies\zycore\include;C:\Users\m16\Desktop\ultimate-genrl\out\lib\lemonhook\lib\zydis\zycore;C:\Users\m16\Desktop\ultimate-genrl\lib\json\include;C:\Users\m16\Desktop\ultimate-genrl\lib\raknet;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MinimalRebuild>
+      </MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode>
+      </SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_MBCS;CMAKE_INTDIR="Release";ultimate_genrl_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_MBCS;CMAKE_INTDIR=\"Release\";ultimate_genrl_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\m16\Desktop\ultimate-genrl\lib\bass\include;C:\Users\m16\Desktop\ultimate-genrl\lib\imgui;C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\include;C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\lib\xbyak;C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\lib\zydis\include;C:\Users\m16\Desktop\ultimate-genrl\out\lib\lemonhook\lib\zydis;C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\lib\zydis\dependencies\zycore\include;C:\Users\m16\Desktop\ultimate-genrl\out\lib\lemonhook\lib\zydis\zycore;C:\Users\m16\Desktop\ultimate-genrl\lib\json\include;C:\Users\m16\Desktop\ultimate-genrl\lib\raknet;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\m16\Desktop\ultimate-genrl\lib\bass\include;C:\Users\m16\Desktop\ultimate-genrl\lib\imgui;C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\include;C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\lib\xbyak;C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\lib\zydis\include;C:\Users\m16\Desktop\ultimate-genrl\out\lib\lemonhook\lib\zydis;C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\lib\zydis\dependencies\zycore\include;C:\Users\m16\Desktop\ultimate-genrl\out\lib\lemonhook\lib\zydis\zycore;C:\Users\m16\Desktop\ultimate-genrl\lib\json\include;C:\Users\m16\Desktop\ultimate-genrl\lib\raknet;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>lib\Release\imgui.lib;lib\lemonhook\Release\lemonhook.lib;lib\raknet\Release\raknet.lib;C:\Users\m16\Desktop\ultimate-genrl\lib\bass\lib\bass.lib;dwmapi.lib;lib\lemonhook\lib\zydis\Release\Zydis.lib;lib\lemonhook\lib\zydis\zycore\Release\Zycore.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;d3d9.lib;d3dx9.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/m16/Desktop/ultimate-genrl/out/Release/ultimate-genrl.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/m16/Desktop/ultimate-genrl/out/Release/ultimate-genrl.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\m16\Desktop\ultimate-genrl\lib\bass\include;C:\Users\m16\Desktop\ultimate-genrl\lib\imgui;C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\include;C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\lib\xbyak;C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\lib\zydis\include;C:\Users\m16\Desktop\ultimate-genrl\out\lib\lemonhook\lib\zydis;C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\lib\zydis\dependencies\zycore\include;C:\Users\m16\Desktop\ultimate-genrl\out\lib\lemonhook\lib\zydis\zycore;C:\Users\m16\Desktop\ultimate-genrl\lib\json\include;C:\Users\m16\Desktop\ultimate-genrl\lib\raknet;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MinimalRebuild>
+      </MinimalRebuild>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode>
+      </SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_MBCS;CMAKE_INTDIR="MinSizeRel";ultimate_genrl_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_MBCS;CMAKE_INTDIR=\"MinSizeRel\";ultimate_genrl_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\m16\Desktop\ultimate-genrl\lib\bass\include;C:\Users\m16\Desktop\ultimate-genrl\lib\imgui;C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\include;C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\lib\xbyak;C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\lib\zydis\include;C:\Users\m16\Desktop\ultimate-genrl\out\lib\lemonhook\lib\zydis;C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\lib\zydis\dependencies\zycore\include;C:\Users\m16\Desktop\ultimate-genrl\out\lib\lemonhook\lib\zydis\zycore;C:\Users\m16\Desktop\ultimate-genrl\lib\json\include;C:\Users\m16\Desktop\ultimate-genrl\lib\raknet;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\m16\Desktop\ultimate-genrl\lib\bass\include;C:\Users\m16\Desktop\ultimate-genrl\lib\imgui;C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\include;C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\lib\xbyak;C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\lib\zydis\include;C:\Users\m16\Desktop\ultimate-genrl\out\lib\lemonhook\lib\zydis;C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\lib\zydis\dependencies\zycore\include;C:\Users\m16\Desktop\ultimate-genrl\out\lib\lemonhook\lib\zydis\zycore;C:\Users\m16\Desktop\ultimate-genrl\lib\json\include;C:\Users\m16\Desktop\ultimate-genrl\lib\raknet;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>lib\MinSizeRel\imgui.lib;lib\lemonhook\MinSizeRel\lemonhook.lib;lib\raknet\MinSizeRel\raknet.lib;C:\Users\m16\Desktop\ultimate-genrl\lib\bass\lib\bass.lib;d3d9.lib;dwmapi.lib;lib\lemonhook\lib\zydis\MinSizeRel\Zydis.lib;lib\lemonhook\lib\zydis\zycore\MinSizeRel\Zycore.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/m16/Desktop/ultimate-genrl/out/MinSizeRel/ultimate-genrl.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/m16/Desktop/ultimate-genrl/out/MinSizeRel/ultimate-genrl.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\m16\Desktop\ultimate-genrl\lib\bass\include;C:\Users\m16\Desktop\ultimate-genrl\lib\imgui;C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\include;C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\lib\xbyak;C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\lib\zydis\include;C:\Users\m16\Desktop\ultimate-genrl\out\lib\lemonhook\lib\zydis;C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\lib\zydis\dependencies\zycore\include;C:\Users\m16\Desktop\ultimate-genrl\out\lib\lemonhook\lib\zydis\zycore;C:\Users\m16\Desktop\ultimate-genrl\lib\json\include;C:\Users\m16\Desktop\ultimate-genrl\lib\raknet;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MinimalRebuild>
+      </MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode>
+      </SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_MBCS;CMAKE_INTDIR="RelWithDebInfo";ultimate_genrl_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_MBCS;CMAKE_INTDIR=\"RelWithDebInfo\";ultimate_genrl_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\m16\Desktop\ultimate-genrl\lib\bass\include;C:\Users\m16\Desktop\ultimate-genrl\lib\imgui;C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\include;C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\lib\xbyak;C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\lib\zydis\include;C:\Users\m16\Desktop\ultimate-genrl\out\lib\lemonhook\lib\zydis;C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\lib\zydis\dependencies\zycore\include;C:\Users\m16\Desktop\ultimate-genrl\out\lib\lemonhook\lib\zydis\zycore;C:\Users\m16\Desktop\ultimate-genrl\lib\json\include;C:\Users\m16\Desktop\ultimate-genrl\lib\raknet;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\m16\Desktop\ultimate-genrl\lib\bass\include;C:\Users\m16\Desktop\ultimate-genrl\lib\imgui;C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\include;C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\lib\xbyak;C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\lib\zydis\include;C:\Users\m16\Desktop\ultimate-genrl\out\lib\lemonhook\lib\zydis;C:\Users\m16\Desktop\ultimate-genrl\lib\lemonhook\lib\zydis\dependencies\zycore\include;C:\Users\m16\Desktop\ultimate-genrl\out\lib\lemonhook\lib\zydis\zycore;C:\Users\m16\Desktop\ultimate-genrl\lib\json\include;C:\Users\m16\Desktop\ultimate-genrl\lib\raknet;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>lib\RelWithDebInfo\imgui.lib;lib\lemonhook\RelWithDebInfo\lemonhook.lib;lib\raknet\RelWithDebInfo\raknet.lib;C:\Users\m16\Desktop\ultimate-genrl\lib\bass\lib\bass.lib;d3d9.lib;dwmapi.lib;lib\lemonhook\lib\zydis\RelWithDebInfo\Zydis.lib;lib\lemonhook\lib\zydis\zycore\RelWithDebInfo\Zycore.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/m16/Desktop/ultimate-genrl/out/RelWithDebInfo/ultimate-genrl.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/m16/Desktop/ultimate-genrl/out/RelWithDebInfo/ultimate-genrl.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\m16\Desktop\ultimate-genrl\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/m16/Desktop/ultimate-genrl/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/m16/Desktop/ultimate-genrl -BC:/Users/m16/Desktop/ultimate-genrl/out --check-stamp-file C:/Users/m16/Desktop/ultimate-genrl/out/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\Clang-CXX.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\Clang.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-Clang-CXX.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-Clang.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;C:\Users\m16\Desktop\ultimate-genrl\out\CMakeFiles\3.30.0-rc4\CMakeCXXCompiler.cmake;C:\Users\m16\Desktop\ultimate-genrl\out\CMakeFiles\3.30.0-rc4\CMakeRCCompiler.cmake;C:\Users\m16\Desktop\ultimate-genrl\out\CMakeFiles\3.30.0-rc4\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\m16\Desktop\ultimate-genrl\out\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/m16/Desktop/ultimate-genrl/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/m16/Desktop/ultimate-genrl -BC:/Users/m16/Desktop/ultimate-genrl/out --check-stamp-file C:/Users/m16/Desktop/ultimate-genrl/out/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\Clang-CXX.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\Clang.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-Clang-CXX.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-Clang.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;C:\Users\m16\Desktop\ultimate-genrl\out\CMakeFiles\3.30.0-rc4\CMakeCXXCompiler.cmake;C:\Users\m16\Desktop\ultimate-genrl\out\CMakeFiles\3.30.0-rc4\CMakeRCCompiler.cmake;C:\Users\m16\Desktop\ultimate-genrl\out\CMakeFiles\3.30.0-rc4\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\m16\Desktop\ultimate-genrl\out\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Users/m16/Desktop/ultimate-genrl/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/m16/Desktop/ultimate-genrl -BC:/Users/m16/Desktop/ultimate-genrl/out --check-stamp-file C:/Users/m16/Desktop/ultimate-genrl/out/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\Clang-CXX.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\Clang.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-Clang-CXX.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-Clang.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;C:\Users\m16\Desktop\ultimate-genrl\out\CMakeFiles\3.30.0-rc4\CMakeCXXCompiler.cmake;C:\Users\m16\Desktop\ultimate-genrl\out\CMakeFiles\3.30.0-rc4\CMakeRCCompiler.cmake;C:\Users\m16\Desktop\ultimate-genrl\out\CMakeFiles\3.30.0-rc4\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\m16\Desktop\ultimate-genrl\out\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Users/m16/Desktop/ultimate-genrl/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/m16/Desktop/ultimate-genrl -BC:/Users/m16/Desktop/ultimate-genrl/out --check-stamp-file C:/Users/m16/Desktop/ultimate-genrl/out/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\Clang-CXX.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\Clang.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-Clang-CXX.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-Clang.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;C:\Users\m16\Desktop\ultimate-genrl\out\CMakeFiles\3.30.0-rc4\CMakeCXXCompiler.cmake;C:\Users\m16\Desktop\ultimate-genrl\out\CMakeFiles\3.30.0-rc4\CMakeRCCompiler.cmake;C:\Users\m16\Desktop\ultimate-genrl\out\CMakeFiles\3.30.0-rc4\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\m16\Desktop\ultimate-genrl\out\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\m16\Desktop\ultimate-genrl\src\main.cpp" />
+    <ClCompile Include="C:\Users\m16\Desktop\ultimate-genrl\src\config.cpp" />
+    <ClCompile Include="C:\Users\m16\Desktop\ultimate-genrl\src\plugin.cpp" />
+    <ClCompile Include="C:\Users\m16\Desktop\ultimate-genrl\src\ultimate_genrl.cpp" />
+    <ClCompile Include="C:\Users\m16\Desktop\ultimate-genrl\src\ui\dx9.cpp" />
+    <ClCompile Include="C:\Users\m16\Desktop\ultimate-genrl\src\ui\menu.cpp" />
+    <ClCompile Include="C:\Users\m16\Desktop\ultimate-genrl\src\misc\misc.cpp" />
+    <Natvis Include="C:\Users\m16\Desktop\ultimate-genrl\lib\json\nlohmann_json.natvis">
+    </Natvis>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\m16\Desktop\ultimate-genrl\out\ZERO_CHECK.vcxproj">
+      <Project>{921BE347-1125-35F0-9CE9-0CD07A7D088A}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\m16\Desktop\ultimate-genrl\out\lib\lemonhook\lib\zydis\zycore\Zycore.vcxproj">
+      <Project>{361C4CAE-536A-3911-84E9-E6638A78FC94}</Project>
+      <Name>Zycore</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\m16\Desktop\ultimate-genrl\out\lib\lemonhook\lib\zydis\Zydis.vcxproj">
+      <Project>{8B74463D-00BA-310F-A12F-2F0BF250A7A7}</Project>
+      <Name>Zydis</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\m16\Desktop\ultimate-genrl\out\lib\bass\bass.vcxproj">
+      <Project>{6A74D930-9BF1-36EA-A385-CC69343E3B83}</Project>
+      <Name>bass</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\m16\Desktop\ultimate-genrl\out\lib\imgui.vcxproj">
+      <Project>{D44FB54A-DF91-32CF-904F-F9C7E943369A}</Project>
+      <Name>imgui</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\m16\Desktop\ultimate-genrl\out\lib\lemonhook\lemonhook.vcxproj">
+      <Project>{95E64C68-A12A-37C8-894E-56B87EF1538D}</Project>
+      <Name>lemonhook</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\m16\Desktop\ultimate-genrl\out\lib\raknet\raknet.vcxproj">
+      <Project>{C0D576BC-271C-3635-AECC-7F47FB6DCB48}</Project>
+      <Name>raknet</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
